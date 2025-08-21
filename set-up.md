@@ -7,10 +7,14 @@ brew install --cask miniforge
 conda init "$(basename "${SHELL}")"
 eval "$(mamba shell hook --shell zsh)"
 ```
-3. Installation of [ReadFish](https://github.com/LooseLab/readfish/tree/main?tab=readme-ov-file#testing) using the yaml file and conda.
+3. Installation of [ReadFish](https://github.com/LooseLab/readfish/tree/main?tab=readme-ov-file#testing) using the yaml file and using mamba instead of conda.
 ```
-conda env create -f readfish_env.yml
-conda activate readfish
+mamba env create -f readfish_env.yml
+mamba activate readfish
+
+# Then followed installation of grpcio for apple silicon
+pip uninstall grpcio
+GRPC_PYTHON_LDFLAGS=" -framework CoreFoundation" pip install grpcio --no-binary :all:
 ```
 4. Installation of [dorado basecall server](https://nanoporetech.com/software/other/dorado-basecall-server) version == 7.9.8 and added it to my path.
 
