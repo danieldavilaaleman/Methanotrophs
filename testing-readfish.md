@@ -9,4 +9,6 @@
 ```
 minimap2 -d hg38.mmi GCF_000001405.26_GRCh38_genomic.fna
 ```
-4. 
+4. Create a sequencing run in MinKNOW using the configuration test cell and add the downloaded fast5 file as simulated playbay file. The kit selected was Ligation Sequencing Kit SQK-LSK112.
+
+5. 
