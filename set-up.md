@@ -18,5 +18,5 @@ GRPC_PYTHON_LDFLAGS=" -framework CoreFoundation" pip install grpcio --no-binary 
 ```
 4. Installation of [dorado basecall server](https://nanoporetech.com/software/other/dorado-basecall-server) version == 7.9.8 and added it to my path.
 
-Now, everything is ready for testing of [ReadFish](https://github.com/LooseLab/readfish/tree/main?tab=readme-ov-file#testing)
+Now, everything is ready for testing of [ReadFish](https://github.com/LooseLab/readfish/tree/main?tab=readme-ov-file#testing).
 
