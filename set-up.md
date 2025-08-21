@@ -12,5 +12,5 @@ eval "$(mamba shell hook --shell zsh)"
 conda env create -f readfish_env.yml
 conda activate readfish
 ```
-4. Installation of [dorado basecall server](https://nanoporetech.com/software/other/dorado-basecall-server) version == 7.9.8
+4. Installation of [dorado basecall server](https://nanoporetech.com/software/other/dorado-basecall-server) version == 7.9.8 and added it to my path.
 
